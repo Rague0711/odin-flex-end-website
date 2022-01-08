@@ -52,6 +52,7 @@ a, .hero-secondary-text, .hero-button {
     width: 550px;
     height: 250px;
     flex: 1;
+    justify-content: space-between;
 }
 
 .hero-main-text {
@@ -83,4 +84,42 @@ a, .hero-secondary-text, .hero-button {
     padding: 6px 36px;
     border-radius: 5px;
     border: 0;
+}
+
+.two {
+    text-align: center;
+}
+
+.two-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    
+}
+
+.two-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 300px;
+}
+
+.info {
+    max-width: 180px;
+}
+
+.info-picture {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    
+    height: 180px;
+    width: 180px;
+}
+
+.info-text {
+    font-size: 18px;
+    color: grey;
 }
